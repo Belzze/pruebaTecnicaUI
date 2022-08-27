@@ -1,0 +1,24 @@
+*************API para obtener el clima******************
+
+*Documentación de la API: https://weatherdbi.herokuapp.com/documentation/v1
+
+*Request de muestra para cuando tenemos el nombre de una
+ciudad: https://weatherdbi.herokuapp.com/data/weather/london
+
+*Request de muestra para cuando tenemos las coordenadas (latitud, longitud):
+https://weatherdbi.herokuapp.com/data/weather/28.539143,-81.403076
+
+*La API retorna una propiedad llamada next_days la cual contiene un arreglo con la información del
+clima para toda la semana. Las propiedades que deseamos utilizar serían:
+
+-day: contiene el nombre del día, este valor lo vamos a mostrar en la parte superior de cada
+tarjeta. Por ejemplo: Friday, Sunday, Monday
+
+-iconURL: contiene la URL de la imagen para representar el estado del clima, esta imagen la
+vamos a mostrar en el centro de la tarjeta
+
+-min_temp: contiene la temperatura mínima en grados celsius y fahrenheit. vamos a mostrar el
+valor en grados celsius
+
+-max_temp: contiene la temperatura máxima en grados celsius y fahrenheit. vamos a mostrar el
+valor en grados celsius

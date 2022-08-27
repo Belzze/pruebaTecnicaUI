@@ -1,0 +1,22 @@
+.container-box {
+  border: 1px solid #222;
+  height: 170px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+}
+.week-day {
+  border: 1px solid #222;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 20px;
+}
+
+.content-box {
+  border: 1px solid #222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: space-evenly;
+}
